@@ -1,0 +1,10 @@
+---
+- name: Install yum repository
+  yum:
+    name: "{{ ovirt_node_yum_repo_package_location }}"
+    state: latest
+
+- name: Install oVirt packages
+  yum:
+    name: "{{ ovirt_node_packages }}"
+    state: latest

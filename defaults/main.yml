@@ -1,0 +1,3 @@
+---
+ovirt_node_yum_repo_package_location: "https://resources.ovirt.org/pub/yum-repo/ovirt-release43.rpm"
+ovirt_node_packages: [ cockpit-ovirt-dashboard ]
